@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 50px;
   font-weight: 700;
 }
+.section__uptitle {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 :root {
   --acent: #01996D;
   --text: #424242;
@@ -91,3 +96,57 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 30px;
   line-height: 31px;
 }
+
+/* hiw */
+.hiw {
+  padding: 169px 0 51px;
+}
+.hiw__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.hiw__title__wrap{
+  width: 584px;
+}
+.hiw__descr {
+  width: 640px;
+  font-weight: 500;
+  font-size: 20px;
+  align-self: flex-end;
+}
+.hiw__cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 95px;
+}
+.hiw__card {
+  max-width: 390px;
+}
+.hiw__card:nth-child(2) {
+  margin-top: 280px;
+}
+.hiw__card_num {
+  position: relative;
+  font-family: 'Georgia', serif;
+  font-size: 150px;
+  color:rgb(1 153 109 / 20%);
+  margin-bottom: 55px;
+}
+.hiw__card__title {
+  position: absolute;
+  font-size: 30px;
+  width: 100%;
+  top: 115px;
+  left: 100px;
+  color: #000;
+}
+.hiw__card__descr {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text);
+  width: 382px;
+  margin-bottom: 60px;
+}
+
