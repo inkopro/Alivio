@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 50px;
   font-weight: 700;
 }
+.section__title-w {
+  color: #fff;
+  margin-bottom: 30px;
+  width: 580px;
+}
 .section__uptitle {
   font-weight: 600;
   font-size: 24px;
@@ -149,4 +154,26 @@ h1, h2, h3, h4, h5, h6, p {
   width: 382px;
   margin-bottom: 60px;
 }
+
+/* cta */
+.cta {
+  padding: 229px 0 176px;
+  background-color: #245852;
+}
+.cta__wrap {
+  display: flex;
+  align-items: center;
+}
+.cta__left {
+  width: 580px;
+}
+.cta__subtitle {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 57px;
+}
+.cta__video {
+  text-decoration: none;
+}
+
 
