@@ -358,8 +358,20 @@ section {
 }
 
 /* hiw */
+.hiw__cards {
+  gap: 0;
+}
 .hiw__card, .hiw__card__descr, .hiw__card__img {
   max-width: 100%;
+}
+.hiw__card_num {
+  margin-bottom: 0;
+}
+.hiw__card__title {
+  font-size: 20px;
+}
+.hiw__card__descr {
+  margin-bottom: 15px;
 }
 
 /* footer */
